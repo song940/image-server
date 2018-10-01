@@ -1,0 +1,24 @@
+{
+  "name": "image-server",
+  "version": "0.0.1",
+  "description": "image server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "image"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gm": "^1.23.1",
+    "kelp": "^2.0.1",
+    "kelp-body": "^1.4.2",
+    "kelp-logger": "^1.1.0",
+    "kelp-send": "^1.0.4",
+    "qr-image": "^3.2.0"
+  },
+  "devDependencies": {}
+}
